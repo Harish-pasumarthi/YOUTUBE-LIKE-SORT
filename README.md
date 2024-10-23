@@ -1,7 +1,11 @@
 ## ![YouTube Logo](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)  YT LIKE-SORT 
 YT LIKE-SORT is a web-based application that allows users to search for YouTube videos on any topic and displays the top results sorted by the number of likes. This project utilizes the YouTube Data API to fetch video details and provides an easy-to-use interface for accessing the most liked videos.
 ## Demo
-[![YT LIKE-SORT Demo](output/thumbnail.png)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+
+<a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE">
+    <img src="output/thumbnail.png" alt="YT LIKE-SORT Demo" width="200">
+    <h4>CLICK ON 👆🏻 YOUTUBE LOGO TO 👀 WATCH DEMO 📽️</h4>
+</a>
 
 ## Project Aim
 The aim of YT LIKE-SORT is to provide a platform where users can easily find the most appreciated YouTube videos on a given topic. This ensures high-quality content discovery based on community feedback in the form of likes.
