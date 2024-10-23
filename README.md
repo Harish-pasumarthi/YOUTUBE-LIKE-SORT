@@ -12,7 +12,7 @@ The aim of YT LIKE-SORT is to provide a platform where users can easily find the
 - It helps users quickly find high-quality, community-approved content.
 - The sorting approach ensures valuable resources are easily discoverable.
 
--![Placeholder for Video Info Display](output/6.png)
+![Placeholder for Video Info Display](output/1.png)
 
 ## Key Features
 - **Search YouTube Videos:** Users can search for videos on any topic and receive a list of relevant results.
@@ -34,11 +34,15 @@ The aim of YT LIKE-SORT is to provide a platform where users can easily find the
 
 ## Example Outputs
 
-1. ![Placeholder for Search Bar](output/1.png)
-2. ![Placeholder for Most Liked Videos List](output/2.png)
-3. ![Placeholder for Video Thumbnail Display](output/3.png)
-4. ![Placeholder for Video Info Display](output/4.png)
-5. ![Placeholder for Play Button Overlay](output/5.png)
+![Placeholder for Most Liked Videos List](output/2.png)
+ -USER ENTERED 
+ ```bash
+    Apple 16 pro review
+```
+![Placeholder for Video Thumbnail Display](output/3.png)
+-USER GET RESULTS
+ ![Placeholder for Video Info Display](output/4.png)
+
 
 ## Setup Instructions
 1. Clone the repository.
@@ -51,9 +55,10 @@ The aim of YT LIKE-SORT is to provide a platform where users can easily find the
    ```bash
    python app.py
    ```
+   ![Placeholder for Play Button Overlay](output/5.png)
 5. Open a web browser and navigate to `http://127.0.0.1:5000`.
 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
