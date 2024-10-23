@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT LIKE-SORT</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=19318&format=png&color=000000">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="header-container">
+        <img src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000" alt="Logo" width="50" height="50">
+        <h1>YT LIKE-SORT</h1>
+    </div>
+    
+    <h4 style="color:white;">most <mark>liked</mark> videos comes first : ) </h4>
+    <form id="searchForm" method="POST">
+        <input type="text" name="query" placeholder="search to get Top-Most liked videos on your topic" required>
+        <button type="submit">Search</button>
+    </form>
+    
+    
+    <div>
+        {% for video in videos %}
+        <div class="video-container">
+            <img src="{{ video.thumbnail }}" alt="Thumbnail">
+            <div class="video-info">
+                <h2>{{ video.title }}</h2>
+                <p>Likes: {{ video.likes }}</p>
+                <a href="https://www.youtube.com/watch?v={{ video.video_id }}" target="_blank" class="play-button">
+                    <div class="play-icon"></div>
+                </a>
+            </div>
+        </div>
+        
+        {% endfor %}
+    </div>
+
+    <script>
+        document.getElementById("searchForm").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();  
+                this.submit();  
+            }
+        });
+    </script>
+</body>
+</html>
